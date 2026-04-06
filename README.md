@@ -1,42 +1,103 @@
-🦈 OM-SHARK: Official Installation Guide
+
+---
+
+🦈 OM-SHARK – Installation Guide
+
 Developed by: OM BRAHMAN
-Follow these steps one by one to install and run the OM-SHARK phishing tool on your Termux or Linux terminal.
-Step 1: Update & Upgrade Packages
-Ensure your environment is up to date to avoid any installation errors.
 
-• pkg update && pkg upgrade -y
-
-Step 2: Install Required Dependencies
-The tool requires git to download files, php to run the server, and unzip to extract the templates.
-
-• pkg install git php unzip -y
-
-step 3:clone the repository.
-
-• git clone https://github.com/OMBRAHMAN/Shark-phishing.git
-
-Step 4: Navigate to the Directory
-Enter the tool's folder after the download is complete.
-
-• cd Shark-phishing
+Follow the steps below to install and run OM-SHARK on Termux or any Linux system.
 
 
-Step 5: Extract the Tool Files
-Extract the phishing templates and core files from the ZIP archive
+---
 
-• unzip -o om-shark_tool.zip
+⚙️ Step 1: Update & Upgrade Packages
 
-(The -o flag ensures it overwrites existing files automatically without asking for permission.)
+Make sure your system is fully updated to avoid errors.
 
-Step 6: Grant Execution Permission
-Give the main script the power to run on your system.
-
-• chmod +x om-shark.sh
-
-Step 7: Launch the Tool
-Start the OM-SHARK interface.
-
-• om-shark
+pkg update && pkg upgrade -y
 
 
+---
+
+📦 Step 2: Install Required Dependencies
+
+Install the necessary tools required to run OM-SHARK.
+
+pkg install git php unzip -y
+
+
+---
+
+📥 Step 3: Clone the Repository
+
+Download the tool from GitHub.
+
+git clone https://github.com/OMBRAHMAN/Shark-phishing.git
+
+
+---
+
+📂 Step 4: Navigate to Tool Directory
+
+Move into the downloaded folder.
+
+
+cd Shark-phishing
+
+
+---
+
+📦 Step 5: Extract Tool Files
+
+Unzip the main tool files.
+
+
+unzip -o om-shark_tool.zip
+
+> -o flag automatically overwrites existing files.
+
+
+
+
+---
+
+🔐 Step 6: Grant Permission
+
+Give execution permission to the script.
+
+
+chmod +x om-shark.sh
+
+
+---
+
+🚀 Step 7: Run the Tool
+
+Launch the OM-SHARK interface.
+
+bash om-shark.sh
+
+> If command not works, try:
+
+
+
+om-shark
+
+
+---
+
+⚠️ Disclaimer
+
+This tool is created for educational purposes only.
+Do not use it for illegal activities. The developer is not responsible for any misuse.
+
+
+---
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+
+---
 
